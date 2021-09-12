@@ -2,7 +2,7 @@
 
 Description to run project
 
-1. Install npm and Nodejs.
+1. Install npm, Nodejs and mongodb (also add the required mongodb url in the config).
 2. Go to project folder and open terminal in it and if nodemodules directory is not cloned, run 'npm install' command in command prompt to install dependencies.
 3. Now, run project by command 'node server'
 4. After the project is running(server is running), In postman we can go to different links, which are described below
@@ -12,7 +12,8 @@ Description to run project
 **localhost:3000/auth/signup**  
 First of all we need to register a user, to login and to use different blogs api.
   For signup, we need to go to above route and need to pass these required params in req body(name, email, password) e.g. { "name": "testUser", "email": "testUser@test.com", "password": "123456" }
-  
+  ![image](https://user-images.githubusercontent.com/68643754/132987562-e5388ff8-70cf-451a-931b-0d867f061242.png)
+
   
   
 **localhost:3000/auth/login**
@@ -37,18 +38,17 @@ To logout and remove the cookie we can use the logout api route
   
   
   
-**localhost:3000/blogs/home/** (  We require to login successfully to access this route, else it will show the response as login first )
+**localhost:3000/blogs/home/title** (  We require to login successfully to access this route, else it will show the response as login first )
 
-  This route will show us only the specific blog post on the basis of title sent in params
+  This route will show us only the specific blog post on the basis of title sent in params, e.g. localhost:3000/blogs/home/Health blog
   
     
     
     
 **localhost:3000/blogs/delete**  (  We require to login successfully to access this route, else it will show the response as login first )
 
-  This route is to delete a blog post on the basis of title and as it require login first, the api will delete the post if and only if the logged in user is requesting to delete his/her own post and it will not allow to delete the post whose owner is some other user.
+  This route is to delete a blog post on the basis of title. Need to pass the required data in req.body (title) e.g., { "title": "Health blog" }
+  As it require login first, the api will delete the post if and only if the logged in user is requesting to delete his/her own post and it will not allow to delete the post whose owner is some other user.
   
   
-  
-I have also shared the screenshot in project folder showing the json array from time.com
-
+ 
