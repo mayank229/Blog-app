@@ -127,7 +127,6 @@ exports.deleteBlog = async function(req, res, next) {
         }
         // Delete the blog if the logged in user is creator of that blog
         const blog = await Blogs.deleteBlog(req.body.title, req.user);
-
         if (blog) {
             wlogger.info(`Blog deleted successfully with title: ${req.body.title}`);
             return res.status(200).json({

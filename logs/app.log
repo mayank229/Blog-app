@@ -2,3 +2,20 @@
 {"message":"(controllers/auth.js:84) User login successful with email: mayank@gmail.com","level":"info"}
 {"message":"(controllers/auth.js:84) User login successful with email: mayank@gmail.com","level":"info"}
 {"message":"(controllers/auth.js:84) User login successful with email: mayank@gmail.com","level":"info"}
+{"message":"(controllers/auth.js:33) User registered successfully with email: test@gmail.com","level":"info"}
+{"message":"(controllers/auth.js:84) User login successful with email: test@gmail.com","level":"info"}
+{"message":"(controllers/auth.js:84) User login successful with email: test@gmail.com","level":"info"}
+{"message":"(controllers/blogs.js:35) Get Blog post by title","level":"info"}
+{"message":"(controllers/auth.js:84) User login successful with email: tushar@gm.com","level":"info"}
+{"message":"(controllers/blogs.js:132) Blog deleted successfully with title: Health blog","level":"info"}
+{"message":"(controllers/auth.js:84) User login successful with email: test@gmail.com","level":"info"}
+{"message":"(controllers/blogs.js:86) Blog added successfully with title: Health blog","level":"info"}
+{"message":"(controllers/blogs.js:10) Get all Blogs post request","level":"info"}
+{"message":"(controllers/blogs.js:35) Get Blog post by title","level":"info"}
+{"message":"(controllers/blogs.js:132) Blog deleted successfully with title: Health blog","level":"info"}
+{"message":"(controllers/blogs.js:35) Get Blog post by title","level":"info"}
+{"message":"(controllers/auth.js:84) User login successful with email: test@gmail.com","level":"info"}
+{"message":"(controllers/blogs.js:86) Blog added successfully with title: Health blog","level":"info"}
+{"message":"(controllers/auth.js:84) User login successful with email: tushar@gm.com","level":"info"}
+{"message":"(controllers/auth.js:84) User login successful with email: test@gmail.com","level":"info"}
+{"message":"(controllers/blogs.js:132) Blog deleted successfully with title: Health blog","level":"info"}

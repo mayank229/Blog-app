@@ -37,7 +37,7 @@ module.exports.getAllBlogs = async function () {
 // Get a blog post by id
 module.exports.getBlogById = async function (blogId) {
   try {
-    const blog = await Blogs.findOne({'_id': blogId});//.populate({path: 'created_by', select: {_id: 1, name: 1}});
+    const blog = await Blogs.findOne({'_id': blogId});
     return blog;
   } catch (error) {
     throw error;

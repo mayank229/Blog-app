@@ -41,7 +41,6 @@ module.exports.getUserById = async function (_id) {
   } catch (error) {
     throw error;
   }
-
 };
 
 // Add a new user
